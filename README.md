@@ -1,12 +1,11 @@
-# Jupyter Notebook
+# 주피터 노트북
 
 ![Github Actions Status](https://github.com/jupyter/notebook/workflows/Build/badge.svg)
 [![Documentation Status](https://readthedocs.org/projects/jupyter-notebook/badge/?version=latest)](https://jupyter-notebook.readthedocs.io/en/latest/?badge=latest)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyter/notebook/main?urlpath=tree)
 [![Gitpod](https://img.shields.io/badge/gitpod_editor-open-blue.svg)](https://gitpod.io/#https://github.com/jupyter/notebook)
 
-The Jupyter notebook is a web-based notebook environment for interactive
-computing.
+주피터 노트북은 대화형 컴퓨팅을 위한 웹 기반 노트북 환경입니다.
 
 ![Jupyter notebook example](docs/resources/running_code_med.png 'Jupyter notebook example')
 
