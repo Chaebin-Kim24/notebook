@@ -18,21 +18,21 @@
 노트북 v7으로 업그레이드 하는 것은, 확장 코드를 쓰고 있는 경우 추가 작업이 필요한데, 그 이유는
 노트북 v5나 클래식 노트북 v6에서 동작하는 코드가 노트북 v7에서는 호환되지 않기 때문입니다.
 
-### Notebook v7
+### 노트북 v7
 
-The newest major version of Notebook is based on:
+새로운 버전의 노트북의 구성요소는:
 
-- JupyterLab components for the frontend
-- Jupyter Server for the Python server
+- 프론트엔드를 위한 주피터랩 구성요소
+- 파이썬 서버를 위한 주피터 서버
 
-This represents a significant change to the `jupyter/notebook` code base.
+입니다. 이는 `주피터/노트북` 코드에 상당히 많은 변화가 있을을 뜻합니다.
 
-To learn more about Notebook v7: https://jupyter.org/enhancement-proposals/79-notebook-v7/notebook-v7.html
+노트북 v7: https://jupyter.org/enhancement-proposals/79-notebook-v7/notebook-v7.html
 
-### Classic Notebook v6
+### 클래식 노트북 v6
 
-Maintenance and security-related issues [only](https://github.com/jupyter/notebook-team-compass/issues/5#issuecomment-1085254000) are now being addressed in the [`6.5.x`](https://github.com/jupyter/notebook/tree/6.5.x) branch.
-It depends on [`nbclassic`](https://github.com/jupyter/nbclassic) for the HTML/JavaScript/CSS assets.
+유지보수 및 보안 관련 이슈는 [한정적으로](https://github.com/jupyter/notebook-team-compass/issues/5#issuecomment-1085254000) [`6.5.x`](https://github.com/jupyter/notebook/tree/6.5.x) 버전에서만 처리되고 있습니다.
+이 버전은 [`nbclassic`](https://github.com/jupyter/nbclassic)에서 HTML/JavaScript/CSS 관련 자원을 가져옵니다.
 
 New features and continuous improvement is now focused on Notebook v7 (see section above).
 
