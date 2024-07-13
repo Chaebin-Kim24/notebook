@@ -57,18 +57,18 @@ _IPython 파이썬 커널_ 이 같이 들어있는 마지막 버전이었습니�
 주피터 노트북의 고급 사용법에 대한 문서는 
 [여기](https://jupyter-notebook.readthedocs.io/en/latest/)에 있습니다.
 
-For a local installation, make sure you have
-[pip installed](https://pip.readthedocs.io/en/stable/installing/) and run:
+설치를 하기 전 먼저
+[pip 설치](https://pip.readthedocs.io/en/stable/installing/)가 되었는지 확인하고 명령 프롬프트에서 다음 명령어를 실행합니다:
 
 ```bash
 pip install notebook
 ```
 
-## Usage - Running Jupyter notebook
+## 사용법 - 주피터 노트북 실행하기
 
-### Running in a local installation
+### 일반 설치를 했을 때
 
-Launch with:
+명렁 프롬프트에서 다음 명령어를 실행합니다:
 
 ```bash
 jupyter notebook
