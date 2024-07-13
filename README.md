@@ -112,19 +112,14 @@ https://github.com/jupyter/.
 ## 저작권 방침
 
 주피터는 공유 저작권 모델을 사용합니다. 참여자 각각은 주피터에서 자신이 기여한 내용에 대한 저작권을 관리합니다.
-But, it is important to note that these
-contributions are typically only changes to the repositories. Thus, the Jupyter
-source code, in its entirety is not the copyright of any single person or
-institution. Instead, it is the collective copyright of the entire Jupyter
-Development Team. If individual contributors want to maintain a record of what
-changes/contributions they have specific copyright on, they should indicate
-their copyright in the commit message of the change, when they commit the
-change to one of the Jupyter repositories.
+하지만, 여기서 중요한 점은 기여가 보통 저장소에서 바뀐 부분만을 뜻합니다. 따라서, 주피터 소스코드의 저작권은 
+어떤 개인이나 단체가 소유하지 않습니다. 대신, 이는 주피터 개발 팀 전체의 공동 소유입니다. 
+만일 개인 참여자가 본인이 저작권을 가지고 있는 내용을 관리하고 싶으면, 저장소에 커밋할 때 커밋 메세지에 
+명시해야 합니다. 
 
-With this in mind, the following banner should be used in any source code file
-to indicate the copyright and license terms:
+이를 바탕으로, 다음 글귀가 모든 소스 코드 파일에서 저작권 및 라이센스를 나타냅니다:
 
 ```
-# Copyright (c) Jupyter Development Team.
-# Distributed under the terms of the Modified BSD License.
+# 저작권(c) 주피터 개발 팀.
+# 수정된 BSD 라이센스의 조건에 따라 배포됨.
 ```
