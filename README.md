@@ -11,8 +11,8 @@
 
 ## 소프트웨어 버전
 
-We maintain the **two most recently released major versions of Jupyter Notebook**,
-Classic Notebook v6 and Notebook v7. Notebook v5 is no longer maintained.
+우리는 **주피터 노트북의 최신 버전 두개**인 클래식 노트북 v6와 노트북 v7만 관리합니다
+Notebook v5 is no longer maintained.
 All Notebook v5 users are strongly advised to upgrade to Classic Notebook v6 as soon as possible.
 
 Upgrading to Notebook v7 may require more work, if you use custom extensions, as extensions written
