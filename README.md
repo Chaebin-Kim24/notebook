@@ -88,10 +88,10 @@ jupyter notebook
 
 ## 커뮤니티 가이드라인, 행동지침
 
-This repository is a Jupyter project and follows the Jupyter
-[Community Guides and Code of Conduct](https://jupyter.readthedocs.io/en/latest/community/content-community.html).
+본 저장소는 주피터 프로젝트 중 하나고, 주피터 
+[커뮤니티 가이드라인과 행동지침](https://jupyter.readthedocs.io/en/latest/community/content-community.html)을 준수합니다.
 
-## Resources
+## 참고자료
 
 - [Project Jupyter website](https://jupyter.org)
 - [Online Demo at jupyter.org/try](https://jupyter.org/try)
