@@ -93,12 +93,12 @@ jupyter notebook
 
 ## 참고자료
 
-- [Project Jupyter website](https://jupyter.org)
-- [Online Demo at jupyter.org/try](https://jupyter.org/try)
-- [Documentation for Jupyter notebook](https://jupyter-notebook.readthedocs.io/en/latest/)
-- [Korean Version of Installation](https://github.com/ChungJooHo/Jupyter_Kor_doc/)
-- [Documentation for Project Jupyter](https://jupyter.readthedocs.io/en/latest/index.html)
-- [Issues](https://github.com/jupyter/notebook/issues)
+- [프로젝트 주피터 홈페이지](https://jupyter.org)
+- [인터넷상의 시연, jupyter.org/try](https://jupyter.org/try)
+- [주피터 노트북 문서](https://jupyter-notebook.readthedocs.io/en/latest/)
+- [설치 문서의 한글판](https://github.com/ChungJooHo/Jupyter_Kor_doc/)
+- [프로젝트 주피터 문서](https://jupyter.readthedocs.io/en/latest/index.html)
+- [이슈들](https://github.com/jupyter/notebook/issues)
 - [Technical support - Jupyter Google Group](https://discourse.jupyter.org/)
 
 ## About the Jupyter Development Team
