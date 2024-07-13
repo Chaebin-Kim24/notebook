@@ -50,12 +50,12 @@ _IPython 파이썬 커널_ 이 같이 들어있는 마지막 버전이었습니�
 - [Big Split™ 공지](https://blog.jupyter.org/the-big-split-9d7b88a031a7)
 - [주피터의 비상 블로그 포스트](https://blog.jupyter.org/jupyter-ascending-1bf5b362d97e)
 
-## Installation
+## 설치
 
-You can find the installation documentation for the
-[Jupyter platform, on ReadTheDocs](https://jupyter.readthedocs.io/en/latest/install.html).
-The documentation for advanced usage of Jupyter notebook can be found
-[here](https://jupyter-notebook.readthedocs.io/en/latest/).
+설치 관련 문서는
+[주피터 플랫폼, ReadTheDocs 블로그](https://jupyter.readthedocs.io/en/latest/install.html)에서 찾아볼 수 있습니다.
+주피터 노트북의 고급 사용법에 대한 문서는 
+[여기](https://jupyter-notebook.readthedocs.io/en/latest/)에 있습니다.
 
 For a local installation, make sure you have
 [pip installed](https://pip.readthedocs.io/en/stable/installing/) and run:
