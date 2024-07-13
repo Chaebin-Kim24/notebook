@@ -43,14 +43,12 @@
 주피터 노트북은 프로젝트 주피터의 프로그래밍 언어에 무관한 HTML 노트북 애플리케션 입니다.
 2015년, 주피터 노트북은 IPython 코드의 Big Split™의 일부로 출시됐습니다. 
 IPython 3가 프로그래밍 언어에 무관한 코드인 _IPython 노트북_ 과 프로그램 특이적 코드인
-_IPython 파이썬 커널_ 이 같이 들어있는 마지막 버전이었습니다.  As
-computing spans across many languages, Project Jupyter will continue to develop the
-language-agnostic **Jupyter notebook** in this repo and with the help of the
-community develop language specific kernels which are found in their own
-discrete repos.
+_IPython 파이썬 커널_ 이 같이 들어있는 마지막 버전이었습니다. 다양한 프로그래밍 언어가 사용됨에 따라, 
+프로젝트 주피터는 프로그래밍 언어에 무관한 **주피터 노트북**을 본 저장소에서 계속 개발해 나갈 것이며, 
+프로그래밍 언어에 특이적인 커널은 커뮤니티 구성원들의 도움을 받아 각자의 저장소에서 개발됩니다. 
 
-- [The Big Split™ announcement](https://blog.jupyter.org/the-big-split-9d7b88a031a7)
-- [Jupyter Ascending blog post](https://blog.jupyter.org/jupyter-ascending-1bf5b362d97e)
+- [Big Split™ 공지](https://blog.jupyter.org/the-big-split-9d7b88a031a7)
+- [](https://blog.jupyter.org/jupyter-ascending-1bf5b362d97e)
 
 ## Installation
 
