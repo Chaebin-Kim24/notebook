@@ -9,7 +9,7 @@
 
 ![Jupyter notebook example](docs/resources/running_code_med.png '주피터 노트북 화면')
 
-## Maintained versions
+## 소프트웨어 버전
 
 We maintain the **two most recently released major versions of Jupyter Notebook**,
 Classic Notebook v6 and Notebook v7. Notebook v5 is no longer maintained.
