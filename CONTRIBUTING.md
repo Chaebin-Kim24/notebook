@@ -1,53 +1,52 @@
-# Contributing to Jupyter Notebook
+# 주피터 노트북에 기여하기
 
-Thanks for contributing to Jupyter Notebook!
+주피터 노트북에 기여해주셔서 감사합니다!
 
-Make sure to follow [Project Jupyter's Code of Conduct](https://github.com/jupyter/governance/blob/master/conduct/code_of_conduct.md)
-for a friendly and welcoming collaborative environment.
+우호적이고 협업을 환영하는 환경을 위해 [주피터 프로젝트의 행동방침](https://github.com/jupyter/governance/blob/master/conduct/code_of_conduct.md)
+을 따라주세요.
 
-## Setting up a development environment
+## 개발 환경 설정하기
 
-Note: You will need NodeJS to build the extension package.
+알림: 확장 패키지를 만들기 위해서 NodeJS가 필요합니다.
 
-The `jlpm` command is JupyterLab's pinned version of [yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use
-`yarn` or `npm` in lieu of `jlpm` below.
+`jlpm` 명령어는 주피터랩을 설치할 때 함께 설치된 [yarn](https://yarnpkg.com/)을 주피터랩 버전으로 실행합니다. `jlpm` 대신에 `yarn`, `npm` 명령어를 사용해도 무방합니다.
 
-**Note**: we recommend using `mamba` to speed the creating of the environment.
+**알림**: 환경을 빠르게 만들기 위해 `conda` 대신 `mamba` 사용을 권장합니다.
 
 ```bash
-# create a new environment
+# 새로운 환경 만들기
 mamba create -n notebook -c conda-forge python nodejs -y
 
-# activate the environment
+# 환경 활성화 시키기
 mamba activate notebook
 
-# Install package in development mode
+# 개발자 모드로 패키지 설치하기
 pip install -e ".[dev,test]"
 
-# Install dependencies and build packages
+# 필요한 프로그램 설치하고 패키지 만들기
 jlpm
 jlpm build
 
-# Link the notebook extension and @jupyter-notebook schemas
+# 노트북의 확장 패키지와 @주피터-노트북의 데이터베이스를 연결
 jlpm develop
 
-# Enable the server extension
+# 서버 확장 패키지 활성화
 jupyter server extension enable notebook
 ```
 
-`notebook` follows a monorepo structure. To build all the packages at once:
+`notebook`은 단일 저장소 구조를 따릅니다. 모든 패키지를 한번에 만드려면 다음 명령어를 실행합니다:
 
 ```bash
 jlpm build
 ```
 
-There is also a `watch` script to watch for changes and rebuild the app automatically:
+소스 코드가 바뀐 점을 감지하고 자동으로 앱을 다시 만드는 `watch` 스크립트도 있습니다:
 
 ```bash
 jlpm watch
 ```
 
-To make sure the `notebook` server extension is installed:
+`노트북` 서버 확장이 설치되어 있는지 확인하기 위해서는:
 
 ```bash
 $ jupyter server extension list
@@ -64,13 +63,13 @@ Config dir: /home/username/miniforge3/envs/notebook/etc/jupyter
 Config dir: /usr/local/etc/jupyter
 ```
 
-Then start Jupyter Notebook with:
+그리고 다음 명령어로 주피터 노트북을 다시 시작합니다:
 
 ```bash
 jupyter notebook
 ```
 
-### Local changes in Notebook dependencies
+### 노트북에서 쓰는 프로그램 변경
 
 The development installation described above fetches JavaScript dependencies from [npmjs](https://www.npmjs.com/),
 according to the versions in the _package.json_ file.
