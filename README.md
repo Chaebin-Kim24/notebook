@@ -36,9 +36,9 @@
 
 새로운 기능과 지속적인 개선은 노트북 v7에 집중합니다(윗 섹션을 보세요). 
 
-If you have an open pull request with a new feature or if you were planning to open one, we encourage switching over to the Jupyter Server and JupyterLab architecture, and distribute it as a server extension and / or JupyterLab prebuilt extension. That way your new feature will also be compatible with the new Notebook v7.
+새로운 기능을 개발해서 본 깃허브 저장소에 코드 기여 신청을 했거나 신청할 예정이라면, 주피터 서버와 주비터랩 구조로 전환하고, 주피터 서버 확장팩 / 주피터랩 확장팩으로 배포할 것을 권장합니다. 이 방법을 쓰면 새로운 노트북 v7과도 개발된 기능이 호환될 수 있습니다. 
 
-## Jupyter notebook, the language-agnostic evolution of IPython notebook
+## 주피터 노트북, 프로그래밍 언어에 무관하게 진화된 IPython 노트북
 
 Jupyter notebook is a language-agnostic HTML notebook application for
 Project Jupyter. In 2015, Jupyter notebook was released as a part of
