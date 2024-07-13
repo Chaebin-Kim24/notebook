@@ -97,12 +97,12 @@ _package.json_ 파일에 적혀 있는 버전을 선택해서 가져옵니다.
 
 **경고**: 노트북이 쓰는 프로그램들과 설치된 프로그램들이 정확하게 매칭되는 것을 반드시 확인해야합니다,
 그렇지 않을 경우 노트북을 만들 때 웹팩 관련 에러가 발생합니다.\
-In the previous example, both _@jupyterlab/ui-components_ and Notebook depend on _@jupyterlab/coreutils_. We
-strongly advise you to depend on the same version.
+이전 예제에서는, _@jupyterlab/ui-components_ 와 노트북이 모두 _@jupyterlab/coreutils_ 를 사용합니다. 
+같은 버전을 사용할 것을 강하게 권장합니다.
 
-## Running Tests
+## 테스트 하기
 
-To run the tests:
+테스트를 실행하기 위해서는:
 
 ```bash
 jlpm run build:test
