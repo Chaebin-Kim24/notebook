@@ -48,7 +48,7 @@ _IPython 파이썬 커널_ 이 같이 들어있는 마지막 버전이었습니�
 프로그래밍 언어에 특이적인 커널은 커뮤니티 구성원들의 도움을 받아 각자의 저장소에서 개발됩니다. 
 
 - [Big Split™ 공지](https://blog.jupyter.org/the-big-split-9d7b88a031a7)
-- [](https://blog.jupyter.org/jupyter-ascending-1bf5b362d97e)
+- [주피터의 비상 블로그 포스트](https://blog.jupyter.org/jupyter-ascending-1bf5b362d97e)
 
 ## Installation
 
