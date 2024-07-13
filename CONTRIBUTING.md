@@ -71,35 +71,32 @@ jupyter notebook
 
 ### 노트북에서 쓰는 프로그램 변경
 
-The development installation described above fetches JavaScript dependencies from [npmjs](https://www.npmjs.com/),
-according to the versions in the _package.json_ file.
-However, it is sometimes useful to be able to test changes in Notebook, with dependencies (e.g. `@jupyterlab` packages) that have not yet
-been published.
+앞에서 설명한 개발자 설치 방법은 JavaScript 프로그램을 [npmjs](https://www.npmjs.com/)에서 가져오며,
+_package.json_ 파일에 적혀 있는 버전을 선택해서 가져옵니다.
+하지만, 가끔 노트북의 코드를 수정해서 테스트할 필요가 있고, 이 때 `@jupyterlab` 패키지와 같이 아직 출시되지 않은 프로그램을 써야할 수 있습니다.
 
-[yalc](https://github.com/wclr/yalc) can help use local JavaScript packages in your build of
-Notebook, acting as a local package repository.
+[yalc](https://github.com/wclr/yalc)를 쓰면 노트북을 만들 때 개별 설정한 JavaScript 패키지를 써서, 로컬 패키지 저장소처럼 됩니다.
 
-- Install yalc globally in you environment:
+- 개발 환경에 yalc를 설치합니다:
   `npm install -g yalc`
-- Publish you dependency package:\
-  `yalc publish`, from the package root directory.\
-  For instance, if you have are developing on _@jupyterlab/ui-components_, this command must be executed from
-  _path_to_jupyterlab/packages/ui-components_.
-- Depend on this local repository in Notebook:
-  - from the Notebook root directory:\
-    `yalc add your_package` : this will create a _dependencies_ entry in the main _package.json_ file.\
-    With the previous example, it would be `yalc add @jupyterlab/ui-components`.
-  - Notebook is a monerepo, so we want this dependency to be 'linked' as a resolution (for all sub-packages) instead
-    of a dependency.\
-    The easiest way is to manually move the new entry in _package.json_ from _dependencies_ to _resolutions_.
-  - Build Notebook with the local dependency:\
+- 패키지에서 쓰는 프로그램을 등록합니다:\
+  `yalc publish`, 명령어를 패키지의 루트 폴더에서 실행합니다.\
+  예를 들어서, _@jupyterlab/ui-components_ 를 개발 중에 있으면, 이 명령어는
+  _path_to_jupyterlab/packages/ui-components_ 에서 실행합니다.
+- 노트북에서 본 로컬 저장소를 이용합니다:
+  - 노트북의 루트 폴더에서 다음 명령어 실행합니다:\
+    `yalc add your_package` : 명령어의 실행 결과로 메인 _package.json_ 파일에 _dependencies_ 내용이 생성됩니다.\
+    이전 예제에서, 이는 `yalc add @jupyterlab/ui-components`가 됨.
+  - 노트북은 하나의 저장소이기 때문에, dependency 대신 resolution으로 (모든 패키지 내용들을) '연결'하는 것을 원합니다. \
+    가장 쉬운 방법은 _package.json_ 의 새로운 항목을 _dependencies_ 에서 _resolutions_ 로 바꾸는 것입니다.
+  - 로컬 프로그램들로부터 노트북을 만듭니다:\
     `jlpm install && jlpm build`
 
-Changes in the dependency must then be built and pushed using `jlpm build && yalc push` (from the package root directory),
-and fetched from Notebook using `yarn install`.
+노트북에서 쓰는 프로그램들은 `jlpm build && yalc push` 명령어로 만들고 저장합니다 (패키지의 루트 폴더에서 실행합니다),
+그리고 `yarn install` 명령어로 노트북에서 사용할 수 있게 설치합니다.
 
-**Warning**: you need to make sure that the dependencies of Notebook and the local package match correctly,
-otherwise there will be errors with webpack during build.\
+**경고**: 노트북이 쓰는 프로그램들과 설치된 프로그램들이 정확하게 매칭되는 것을 반드시 확인해야합니다,
+그렇지 않을 경우 노트북을 만들 때 웹팩 관련 에러가 발생합니다.\
 In the previous example, both _@jupyterlab/ui-components_ and Notebook depend on _@jupyterlab/coreutils_. We
 strongly advise you to depend on the same version.
 
