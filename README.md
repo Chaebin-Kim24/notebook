@@ -40,8 +40,8 @@
 
 ## 주피터 노트북, 프로그래밍 언어에 무관하게 진화된 IPython 노트북
 
-Jupyter notebook is a language-agnostic HTML notebook application for
-Project Jupyter. In 2015, Jupyter notebook was released as a part of
+주피터 노트북은 프로젝트 주피터의 프로그래밍 언어에 무관한 HTML 노트북 애플리케션 입니다.
+2015년, Jupyter notebook was released as a part of
 The Big Split™ of the IPython codebase. IPython 3 was the last major monolithic
 release containing both language-agnostic code, such as the _IPython notebook_,
 and language specific code, such as the _IPython kernel for Python_. As
