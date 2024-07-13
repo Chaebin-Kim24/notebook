@@ -11,7 +11,7 @@
 
 ## 소프트웨어 버전
 
-우리는 **주피터 노트북의 최신 버전 두개**인 클래식 노트북 v6와 노트북 v7만 관리합니다
+우리는 **주피터 노트북의 최신 버전**인 클래식 노트북 v6와 노트북 v7만 관리합니다
 Notebook v5 is no longer maintained.
 All Notebook v5 users are strongly advised to upgrade to Classic Notebook v6 as soon as possible.
 
