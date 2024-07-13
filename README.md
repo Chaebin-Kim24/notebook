@@ -7,7 +7,7 @@
 
 주피터 노트북은 대화형 컴퓨팅을 위한 웹 기반 노트북 환경입니다.
 
-![Jupyter notebook example](docs/resources/running_code_med.png 'Jupyter notebook example')
+![Jupyter notebook example](docs/resources/running_code_med.png '주피터 노트북 화면')
 
 ## Maintained versions
 
