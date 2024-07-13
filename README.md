@@ -101,18 +101,18 @@ jupyter notebook
 - [이슈들](https://github.com/jupyter/notebook/issues)
 - [기술 지원 - 주피터 구글 그룹](https://discourse.jupyter.org/)
 
-## About the Jupyter Development Team
+## 주피터 개발 팀에 대하여
 
-The Jupyter Development Team is the set of all contributors to the Jupyter project.
-This includes all of the Jupyter subprojects.
+주피터 개발 팀은 주피터 프로젝트의 모든 참여자들의 모임입니다. 
+모든 주피터의 세부 프로젝트들도 포함됩니다. 
 
-The core team that coordinates development on GitHub can be found here:
+깃허브에서 개발을 조율하는 코어 팀은 여기서 찾을 수 있습니다:
 https://github.com/jupyter/.
 
-## Our Copyright Policy
+## 저작권 방침
 
-Jupyter uses a shared copyright model. Each contributor maintains copyright
-over their contributions to Jupyter. But, it is important to note that these
+주피터는 공유 저작권 모델을 사용합니다. 참여자 각각은 주피터에서 자신이 기여한 내용에 대한 저작권을 관리합니다.
+But, it is important to note that these
 contributions are typically only changes to the repositories. Thus, the Jupyter
 source code, in its entirety is not the copyright of any single person or
 institution. Instead, it is the collective copyright of the entire Jupyter
