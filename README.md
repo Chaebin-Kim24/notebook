@@ -12,11 +12,11 @@
 ## 소프트웨어 버전
 
 우리는 **주피터 노트북의 최신 버전**인 클래식 노트북 v6와 노트북 v7만 관리합니다
-Notebook v5 is no longer maintained.
-All Notebook v5 users are strongly advised to upgrade to Classic Notebook v6 as soon as possible.
+노트북 v5는 더이상 관리되지 않습니다.
+모든 노트북 v5 유저들은 최대한 빨리 클래식 노트북 v6로 업그레이드 할 것이 권장됩니다.
 
-Upgrading to Notebook v7 may require more work, if you use custom extensions, as extensions written
-for Notebook v5 or Classic Notebook v6 are not compatible with Notebook v7.
+노트북 v7으로 업그레이드 하는 것은, 확장 코드를 쓰고 있는 경우 추가 작업이 필요한데, 그 이유는
+노트북 v5나 클래식 노트북 v6에서 동작하는 코드가 노트북 v7에서는 호환되지 않기 때문입니다.
 
 ### Notebook v7
 
