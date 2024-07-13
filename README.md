@@ -99,7 +99,7 @@ jupyter notebook
 - [설치 문서의 한글판](https://github.com/ChungJooHo/Jupyter_Kor_doc/)
 - [프로젝트 주피터 문서](https://jupyter.readthedocs.io/en/latest/index.html)
 - [이슈들](https://github.com/jupyter/notebook/issues)
-- [Technical support - Jupyter Google Group](https://discourse.jupyter.org/)
+- [기술 지원 - 주피터 구글 그룹](https://discourse.jupyter.org/)
 
 ## About the Jupyter Development Team
 
