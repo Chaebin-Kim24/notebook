@@ -74,19 +74,19 @@ pip install notebook
 jupyter notebook
 ```
 
-### 원격 설치를 했을 때
+### 원격 설치 방법
 
-주피터 노트북을 원격으로 실행하기 위해서는 추가 설정이 필요합니다. See [노트](https://jupyter-server.readthedocs.io/en/latest/operators/public-server.html).
+주피터 노트북을 원격으로 실행하기 위해서는 추가 설정이 필요합니다. [노트북 서버 설정하기](https://jupyter-server.readthedocs.io/en/latest/operators/public-server.html)를 보세요.
 
-## Development Installation
+## 개발자 설치 방법
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to set up a local development installation.
+[`CONTRIBUTING.md`](CONTRIBUTING.md)파일에서 소스코드로부터 설치하는 방법을 보세요.
 
-## Contributing
+## 참여
 
-If you are interested in contributing to the project, see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+프로젝트 참여에 관심이 있으면, [`CONTRIBUTING.md`](CONTRIBUTING.md)를 보세요.
 
-## Community Guidelines and Code of Conduct
+## 커뮤니티 가이드라인, 행동지침
 
 This repository is a Jupyter project and follows the Jupyter
 [Community Guides and Code of Conduct](https://jupyter.readthedocs.io/en/latest/community/content-community.html).
