@@ -34,7 +34,7 @@
 유지보수 및 보안 관련 이슈는 [한정적으로](https://github.com/jupyter/notebook-team-compass/issues/5#issuecomment-1085254000) [`6.5.x`](https://github.com/jupyter/notebook/tree/6.5.x) 버전에서만 처리되고 있습니다.
 이 버전은 [`nbclassic`](https://github.com/jupyter/nbclassic)에서 HTML/JavaScript/CSS 관련 자원을 가져옵니다.
 
-New features and continuous improvement is now focused on Notebook v7 (see section above).
+새로운 기능과 지속적인 개선은 노트북 v7에 집중합니다(윗 섹션을 보세요). 
 
 If you have an open pull request with a new feature or if you were planning to open one, we encourage switching over to the Jupyter Server and JupyterLab architecture, and distribute it as a server extension and / or JupyterLab prebuilt extension. That way your new feature will also be compatible with the new Notebook v7.
 
