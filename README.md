@@ -74,9 +74,9 @@ pip install notebook
 jupyter notebook
 ```
 
-### Running in a remote installation
+### 원격 설치를 했을 때
 
-You need some configuration before starting Jupyter notebook remotely. See [Running a notebook server](https://jupyter-server.readthedocs.io/en/latest/operators/public-server.html).
+주피터 노트북을 원격으로 실행하기 위해서는 추가 설정이 필요합니다. See [노트](https://jupyter-server.readthedocs.io/en/latest/operators/public-server.html).
 
 ## Development Installation
 
